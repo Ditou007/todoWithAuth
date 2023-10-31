@@ -1,9 +1,10 @@
 {
-  "name": "backend",
+  "name": "node-backend",
   "version": "1.0.0",
-  "description": "Node Backend for simple CURD To-Do App",
+  "description": "Node Backend for CRUD To-Do App",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mithilesh",
@@ -16,5 +17,9 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.1.0",
     "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   }
 }
