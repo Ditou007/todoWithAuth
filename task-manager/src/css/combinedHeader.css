@@ -1,0 +1,60 @@
+/* Main Menu Styling */
+.layout-header-item {
+  color: white;
+  width: 100%;
+  background: black;
+}
+
+/* Individual Menu Item Styling */
+.layout-header-menu-item {
+  color: black;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.layout-header-menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.layout-header-menu-item-selected {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.layout-header-submenu {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.layout-header-submenu-item {
+  transition: background-color 0.3s ease;
+}
+
+.layout-header-submenu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Style for the header */
+.site-layout-sub-header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+/* Breadcrumb styling */
+.site-layout-sub-header .ant-breadcrumb {
+  color: black;
+}
+
+.site-layout-sub-header .ant-breadcrumb-item {
+  font-size: 16px;
+}
+
+.site-layout-sub-header .ant-breadcrumb-item a {
+  color: black;
+  transition: color 0.3s;
+}
+
+.site-layout-sub-header .ant-breadcrumb-item a:hover {
+  color: gray;
+}
