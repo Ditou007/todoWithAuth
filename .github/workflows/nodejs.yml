@@ -27,8 +27,8 @@ jobs:
         run: npm test
         working-directory: node-backend
 
-      - name: Build
-        run: npm run build
+      - name: Start Node.js application
+        run: pm2 start ecosystem.config.js
         working-directory: node-backend
 
     # Add steps for Docker build, push, and deploy if needed

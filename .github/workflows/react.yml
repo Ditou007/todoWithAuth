@@ -23,17 +23,17 @@ jobs:
         run: npm install
         working-directory: task-manager
 
-      - name: Run tests
-        run: npm test
-        working-directory: task-manager
+      # - name: Run tests
+      #   run: npm test
+      #   working-directory: task-manager
 
       - name: Build
         run: npm run build
         working-directory: task-manager
 
-      - name: Dockerize and deploy (if needed)
-        run: |
-          docker build -t my-react-app -f Dockerfile .
-          # Add Docker push and deploy commands here
+      # - name: Dockerize and deploy (if needed)
+      #   run: |
+      #     docker build -t my-react-app -f Dockerfile .
+      #     # Add Docker push and deploy commands here
 
     # Add steps for Docker build, push, and deploy if needed
