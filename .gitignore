@@ -33,6 +33,7 @@ Desktop.ini
 .Spotlight-V100
 .Trashes
 
+/node-backend/ecosystem.config.js
 # Dependency lock files
 # It's generally good practice to include lock files in version control,
 # but you may choose to ignore them.
