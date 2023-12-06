@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import { Button } from 'antd'
 const NotFound = () => {
   const navigate = useNavigate()
 
@@ -8,13 +8,13 @@ const NotFound = () => {
     <div>
       <h2>404 - Page Not Found</h2>
       <p>The page you're looking for does not exist.</p>
-      <button
+      <Button
         onClick={() => {
-          navigate('/')
+          navigate('/home')
         }}
       >
         Landing Page
-      </button>
+      </Button>
     </div>
   )
 }

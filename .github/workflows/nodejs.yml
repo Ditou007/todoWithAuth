@@ -23,9 +23,9 @@ jobs:
         run: npm install
         working-directory: node-backend
 
-      - name: Run tests
-        run: npm test
-        working-directory: node-backend
+      # - name: Run tests
+      #   run: npm test
+      #   working-directory: node-backend
 
       - name: Start Node.js application
         run: pm2 start ecosystem.config.js

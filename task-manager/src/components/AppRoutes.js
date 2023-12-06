@@ -16,7 +16,7 @@ const AppRoutes = () => (
       element={<ProtectedRoute element={<TaskManager />} />}
     />
     <Route path='/about' element={<ProtectedRoute element={<About />} />} />
-    <Route path='*' element={<NotFound />} />
+    <Route path='*' element={<ProtectedRoute element={<NotFound />} />} />
   </Routes>
 )
 
